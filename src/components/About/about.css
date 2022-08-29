@@ -1,0 +1,48 @@
+.about {
+  background-image: url("../../assets//bg.jpg");
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.about-content {
+  line-height: 4px;
+  margin-bottom: 10px;
+}
+
+span {
+  position: fixed;
+  background-color: #215732;
+  height: 0.25rem;
+  width: 100%;
+  bottom: 10%;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .about-content {
+    line-height: 4px;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  span {
+    display: none;
+  }
+}
